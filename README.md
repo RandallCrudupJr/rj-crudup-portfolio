@@ -14,8 +14,9 @@ This repo collects sanitized case studies of real solutions I've built — the p
 ## Projects
 
 - **[Automated Birthday & Work Anniversary Notifications](birthday-anniversary-notifications)** — A scheduled Power Automate flow that reads an enterprise HRIS via REST, finds upcoming birthdays and work anniversaries, and emails each employee's manager a formatted reminder. Shows paged API integration, timezone-safe date logic, relational manager lookups, and conditional templated email.
+- **[Automated Monthly Teams Phone Call Reporting](teams-pstn-call-reporting)** — A scheduled Azure Automation runbook that pulls customer phone calls placed through Microsoft Teams Phone from Microsoft Graph, aggregates each agent's call volume and average talk time, and emails a monthly report formatted to mirror the team's existing contact-center report. Shows app-only Graph access via managed identity, PSTN call-record retrieval, least-privilege mail scoping with an Exchange Online application access policy, and Outlook-ready HTML reporting.
 
-*More case studies in progress, including an LTL freight-tracking data pipeline (Power Automate → SharePoint → Power BI) and an automated Teams PSTN call-reporting solution (PowerShell + Microsoft Graph).*
+*More case studies in progress, including an LTL freight-tracking data pipeline (Power Automate → SharePoint → Power BI).*
 
 ## Connect
 
